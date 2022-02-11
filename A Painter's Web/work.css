@@ -1,0 +1,29 @@
+.grid1 a,.grid2 a{
+  width: 250px;
+  height: 250px;
+}
+.grid1,.grid2 {
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap:wrap;
+}
+.grid1{
+  margin-top: 50px;
+}
+.grid1 img:hover{
+  width: 251px;
+  height: 251px;
+  transition: .5s;
+}
+.grid2 img:hover{
+  width: 251px;
+  height: 251px;
+  transition: .5s;
+}
+@media (max-width:600px){
+  .grid1 img,.grid2 img{
+    float: left !important;
+    clear: none !important;
+  }
+}

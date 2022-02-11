@@ -1,0 +1,70 @@
+.background{
+  background-image: url("./images/paint.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+h1{
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  font-size: 70px;
+  color: #4169E1;
+}
+h2{
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  color: #4169E1;
+}
+.section2{
+  width: 100%;
+}
+.sec2Mini{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sec2a{
+  padding: 0 20px;
+}
+.sec2link{
+font-family: sans-serif;
+text-align: center;
+color: #4169E1;
+display: block;
+}
+.sec2Mini img:hover{
+width: 420px;
+height: 420px;
+transition: .5s;
+}
+.about{
+  text-align: center;
+}
+.about span{
+  font-size: 30px;
+  color: #4169E1;
+  text-decoration: none;
+}
+
+
+.lorem{
+  margin: 0 200px;
+text-align: left;
+color: #4A7FFC;
+}
+
+@media only screen and (max-width: 600px) {
+  .sec2a{
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+  }
+.sec2a > img{
+  max-width: 100% !important;
+}
+.lorem{
+  margin: 0 20px;
+}
+}
